@@ -13,7 +13,7 @@
 <![endif]-->
 <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 	<div class="logo-section bg-white">
 		<div class="content-wrap"><?php echo do_shortcode( '[site-identity container_class="d-flex" class="ml-auto mr-auto mt-4 mb-4"]' ); ?></div>
 	</div>

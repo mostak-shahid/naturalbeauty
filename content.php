@@ -13,7 +13,8 @@
 										<?php the_category(' '); ?>										
 									</div>
 									<h3 class="header"><?php echo get_the_title() ?></h3>
-									<a class="btn btn-outline-light rounded-0 mt-3" href="<?php echo get_the_permalink(); ?>">
+									<p class="desc"><?php echo wp_trim_words(get_the_content(), 30, ''); ?></p>
+									<a class="btn btn-outline-dark rounded-0 mt-3" href="<?php echo get_the_permalink(); ?>">
 										Read More
 										<span class="fa fa-arrow-circle-o-right"></span>
 									</a>
