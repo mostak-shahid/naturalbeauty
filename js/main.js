@@ -9,6 +9,7 @@ jQuery(document).ready(function($){
         }
     }); 
     $('#section-banner-owl').owlCarousel({
+    	rtl:true,
         loop: true,
         nav: true,
         dots: true,
